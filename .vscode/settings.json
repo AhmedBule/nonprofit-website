@@ -1,0 +1,5 @@
+{
+    "workbench.editor.enablePreview": false,
+    "liveServer.settings.port": 5501,
+    "eslint.alwaysShowStatus": true
+}
