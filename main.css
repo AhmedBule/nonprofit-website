@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.logog{
+    color:white ;
+}
+
+.navbar-custom{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgb(7, 7, 7, 0.5);
+}
+
+.hero{
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: black;
+    background-image: url("images/hero3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
