@@ -30,3 +30,12 @@ body{
     background-position: center;
     background-size: cover;
 }
+
+.hero-heading{
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 2.35rem;
+    margin-bottom: 2rem;
+    color: white;
+
+}
