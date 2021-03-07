@@ -39,3 +39,16 @@ body{
     color: white;
 
 }
+
+.page-section h2.section-heading{
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom:1rem;
+}
+.page-section h3.section-subheading{
+    font-size: 1rem;
+    margin-top: 0;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom:4rem;
+}
