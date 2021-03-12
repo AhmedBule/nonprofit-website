@@ -5,8 +5,9 @@
 
 }
 
-body{
+body, html{
     font-family: 'Balsamiq Sans', cursive;
+    height: 100%;
 }
 
 .logo{
@@ -183,24 +184,23 @@ body{
 
   /* Footer */
 
-  .footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
+  #footer{
+    position: relative;
+    background-color: grey;
+    clear: both;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
-    font-size: 16px;
-    justify-content: center;
-    align-items: center;
+
   }
 
   #contact-columns{
     float: left;
     width: 50%;
-    padding: 5px 8px;
+    padding: 2px 5px;
     border: blue;
-    padding: 10px;
-    border-style: solid;
+   border-style: solid;
 
 
   }
