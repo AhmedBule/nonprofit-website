@@ -226,7 +226,7 @@ body, html{
 
   .twitter-timeline {
     max-width: 100%;
-    max-height: 1000px;
+    max-height: 200px;
   }
   .fa {
     font-size: 25px;
@@ -244,3 +244,38 @@ body, html{
   .panel {
    margin-top: 25px;
   }
+
+  .pictures{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+
+  }
+
+
+  .galleryrow{
+    float: left;
+    flex: 33.33%;
+    width: 25%;
+    padding: 5px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration:none;
+object-fit: fill;
+ border-style: dotted;
+}
+
+@media screen and (max-width: 600px) {
+  .gallerycolumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.galleryrow{
+  display: flex;
+}
+  
