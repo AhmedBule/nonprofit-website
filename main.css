@@ -5,9 +5,9 @@
 
 }
 
-body, html{
+body{
     font-family: 'Balsamiq Sans', cursive;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .logo{
@@ -17,21 +17,21 @@ body, html{
 .navbar-custom{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: rgb(7, 7, 7, 0.582);
+    background-color: rgba(19, 10, 10, 0.582);
     /* background: rgb(7, 7, 7, 0.5);
     font-weight: bold;
     display: inline;
     padding: 8px 5px; */
 }
 
-.nav-link a{
+/* .nav-link a{
     font-size: 16px;
     color: white;
     font-weight: bold;
     padding: 14px 16px;
     text-decoration: none;
     background-color: violet;
-}
+} */
 
 .hero{
     padding-top: 10.5rem;
@@ -45,14 +45,14 @@ body, html{
     background-size: cover;
 }
 
-.hero-heading{
+/* .hero-heading{
     font-size: 3.25rem;
     font-weight: bold;
     line-height: 2.35rem;
     margin-bottom: 2rem;
     color: white;
 
-}
+} */
 
 header.hero .hero-heading {
   font-size: 3.25rem;
@@ -62,6 +62,8 @@ header.hero .hero-heading {
   color: #fff;
 }
 
+
+/* Major Causes section */
 .page-section h2.section-heading{
     font-size: 2.5rem;
     margin-top: 0;
@@ -69,11 +71,13 @@ header.hero .hero-heading {
 }
 .page-section h3.section-subheading{
     font-size: 1rem;
-    margin-top: 0;
     font-weight: bold;
     font-style: italic;
     margin-bottom:4rem;
 }
+
+/*  End of Major Causes section */
+
 
 #project .project-item {
     max-width: 25rem;
@@ -175,7 +179,7 @@ header.hero .hero-heading {
   }
 
   .about .icon-box .icon{
-    float: left;
+    float: right;
     display: flex;
     align-items: center;
     justify-content: center;
