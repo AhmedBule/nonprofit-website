@@ -17,11 +17,11 @@ body, html{
 .navbar-custom{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: green;
-    background: rgb(7, 7, 7, 0.5);
+    background-color: rgb(7, 7, 7, 0.582);
+    /* background: rgb(7, 7, 7, 0.5);
     font-weight: bold;
     display: inline;
-    padding: 8px 5px;
+    padding: 8px 5px; */
 }
 
 .nav-link a{
@@ -52,6 +52,14 @@ body, html{
     margin-bottom: 2rem;
     color: white;
 
+}
+
+header.hero .hero-heading {
+  font-size: 3.25rem;
+  font-weight: bold;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  color: #fff;
 }
 
 .page-section h2.section-heading{
